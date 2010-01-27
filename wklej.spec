@@ -1,12 +1,12 @@
 Summary:	A wklej.org submitter
 Summary(pl.UTF-8):	Aplikacja wysyłająca do wklej.org
 Name:		wklej
-Version:	0.1.6
+Version:	0.1.7
 Release:	1
 License:	GPL v2+
 Group:		Applications
 Source0:	http://wklej.org/m/apps/%{name}-%{version}.tar.gz
-# Source0-md5:	3b82cdcc9bf68c4c11acd2184368e983
+# Source0-md5:	3f6daf4284ca6ff390324ebd7e80819a
 URL:		http://wklej.org/skrypt/
 Requires:	perl-Config-Simple
 Requires:	perl-libwww
