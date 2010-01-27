@@ -8,8 +8,7 @@ Group:		Applications
 Source0:	http://wklej.org/m/apps/%{name}-%{version}.tar.gz
 # Source0-md5:	3f6daf4284ca6ff390324ebd7e80819a
 URL:		http://wklej.org/skrypt/
-Requires:	perl-Config-Simple
-Requires:	perl-libwww
+BuildRequires:	rpm-pythonprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -20,10 +19,10 @@ A wklej.org submitter.
 Aplikacja wysyłająca do wklej.org.
 
 %package examples
-Summary:        Scripts for wklej program
-Summary(pl.UTF-8):      Skrypty dla programu wklej
-Group:          Documentation
-Requires:       %{name} = %{version}-%{release}
+Summary:	Scripts for wklej program
+Summary(pl.UTF-8):	Skrypty dla programu wklej
+Group:		Documentation
+Requires:	%{name} = %{version}-%{release}
 
 %description examples
 Scripts for wklej program.
