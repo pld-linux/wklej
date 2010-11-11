@@ -1,12 +1,12 @@
 Summary:	A wklej.org submitter
 Summary(pl.UTF-8):	Aplikacja wysyłająca do wklej.org
 Name:		wklej
-Version:	0.1.7
-Release:	2
+Version:	0.2.0
+Release:	1
 License:	GPL v2+
 Group:		Applications
 Source0:	http://wklej.org/m/apps/%{name}-%{version}.tar.gz
-# Source0-md5:	3f6daf4284ca6ff390324ebd7e80819a
+# Source0-md5:	29dd23756e6d68f722b132f92a328a0a
 URL:		http://wklej.org/skrypt/
 BuildRequires:	rpm-pythonprov
 Requires:	python
