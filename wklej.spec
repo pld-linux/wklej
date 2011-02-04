@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A wklej.org submitter.
 
-%description
+%description -l pl.UTF-8
 Aplikacja wysyłająca do wklej.org.
 
 %package examples
