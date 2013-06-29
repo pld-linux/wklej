@@ -2,7 +2,7 @@ Summary:	A wklej.org submitter
 Summary(pl.UTF-8):	Aplikacja wysyłająca do wklej.org
 Name:		wklej
 Version:	0.2.0
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Applications
 Source0:	http://wklej.org/m/apps/%{name}-%{version}.tar.gz
